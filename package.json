@@ -3,17 +3,17 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-},
-  "homepage": "https://ezhoosh-learning.github.io/traffic-light",
+  "homepage": "https://ezhoosh-learning.github.io/traffic-light/",
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
